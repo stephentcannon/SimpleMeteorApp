@@ -1,4 +1,4 @@
-alexleventer/SimpleMeteorApp:
+username/SimpleMeteorApp:
   PreInstall:
     # Install meteor
     - 'sudo curl https://install.meteor.com/ | sh'

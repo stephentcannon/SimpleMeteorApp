@@ -55,5 +55,4 @@ You should see the following message on successful push:
 Select the lightning bolt on the top left of the page to deploy your latest release:
 <img src="https://monosnap.com/file/m0UNjcC2N4CjTBhkLlc8oMAJgNwJFl.png">
 
-
 Questions? Shoot us an email at <a href="mailto:support@disteli.com" target="_blank">support@distelli.com</a>.
