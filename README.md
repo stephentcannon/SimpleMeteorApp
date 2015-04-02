@@ -43,15 +43,14 @@ You should see the server you installed the agent on prior to starting this tuto
 <img src="https://monosnap.com/file/7aVg6lS9nLaHp3n6t6lBdQeQoFrrDe.png">
 <i><b>Note:</b> This is not the email you used to sign up for your Distelli account, this is the unique username selected after signup.</i>
 
-7. Now we're ready to deploy our sample application. Enter the following command into your terminal:
-<pre>$ distelli deploy -m "First deployment with Distelli" -e MeteorEnvironment</pre>
-<img src="https://monosnap.com/file/tQLsBhx2mbOorMn2cUa6p5DPpEoVNR.png">
+7. Now we're ready to push our first release. Enter the following command into your terminal:
+<pre>$ distelli push -m "First push with Distelli"</pre>
+<img src="https://monosnap.com/file/Wgu3MpukdgoMtrViMoYq8bs8XOBkpL.png">
 Enter the email and password associated with your Distelli account:
-<img src="https://monosnap.com/file/j5vJJRVf1I6taDIRBdmtWcCereBpK9.png">
-Enter "Yes" when prompted if you are ready to start the deployment:
-<img src="https://monosnap.com/file/bz4ABxHmClhv9hpkMcTftJ72aw4rfU.png">
-You should see the following message on successful deployment:
-<img src="https://monosnap.com/file/lFkdyKHNHshRKAJElRc98qPcmRAwI0.png">
+<img src="https://monosnap.com/file/HFWdpMygpB8QPBxwqG5F0QL2kkNFXd.png">
+You should see the following message on successful push:
+<img src="https://monosnap.com/file/95WVNL6KoJNxIWlr5tFAFnae2sx2jT.png">
+8. Now we're ready to deploy our first release. Navigate back to <a href="https://www.distelli.com" target="_blank">Distelli.com</a>.
 
 
 Questions? Shoot us an email at <a href="mailto:support@disteli.com" target="_blank">support@distelli.com</a>.
