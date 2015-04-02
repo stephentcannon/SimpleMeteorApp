@@ -1,5 +1,5 @@
 # SimpleMeteorApp
-This tutorial will walk you through deploying a simple HelloWorld Meteor Application to any server with Distelli.
+This tutorial will walk you through deploying a simple HelloWorld Meteor Application to any server with <a href="https://www.distelli.com" target="_blank">Distelli</a>.
 
 <a href="https://www.distelli.com" target="_blank">Distelli</a> makes it fast and easy for developers to deploy code to any server with the push of a button. Our platform empowers developers and their teams to spend less time building and maintaining complex deployment tools and homegrown scripts so they can focus their valuable time and effort on creating the software that powers their business. Distelli is funded by <a href="http://www.a16z.com" target="_blank">Andreessen Horowitz</a>.
 
@@ -18,26 +18,35 @@ This tutorial will walk you through deploying a simple HelloWorld Meteor Applica
 2. To create an application with Distelli, enter the following command into your terminal replacing <username> with your Distelli username:
 <pre> $ distelli create <username>/SimpleMeteorApplication
 
-3. To create an environment with Distelli, first <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in you should see the Meteor application you just created listed. Select the SimpleMeteorApplication:
+3. To create an environment with Distelli, <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in you should see the Meteor application you just created. Select the SimpleMeteorApplication:
 <img src="https://monosnap.com/file/62C7YNcTLbM0fKzERMwy38w8wbEHqM.png">
-Then, select the environments tab:
+Select the environments tab:
 <img src="https://monosnap.com/file/mndKKqpXetldIn46QHvInlWn9fJOmJ.png">
 Create a new environment by selecting "New Environment":
 <img src="https://monosnap.com/file/lxsCrBn5IBptXR6h40RuTR8VosmHA8.png">
-Name the environment "MeteorEnvironment" and then select the "Create Environment" button:
+Name the environment "MeteorEnvironment" then select the "Create Environment" button:
 <img src="https://monosnap.com/file/q8MCSvI0JRNq9pOvAxxYmw0x0BJUJc.png">
-Now, let's add a server to the environment. Select the "Servers" button on the top right of the page:
+
+4. Now, let's add a server to the environment. Select the "Servers" button on the top right of the page:
 <img src="https://monosnap.com/file/72MP9xzaLwXAc1kH3ZMEXDRg7PnOF9.png">
 Now select the "Add/Remove Servers" button on the top right of the page:
 <img src="https://monosnap.com/file/mlBY0gOOaCJIZAbctYRafLzvhfiym6.png">
 You should see the server you installed the agent on prior to starting this tutorial. Add that server to the environment by selecting the add button:
 <img src="https://monosnap.com/file/8p6wYuziTvsievb5eWxKzLDwnD6Npb.png">
 
-4. Open the distelli-manifest.yml file with your favorite text editor. Replace <username> with your Distelli username:
+5. Open the distelli-manifest.yml file with your favorite text editor. Replace <username> with your Distelli username:
 <img src="https://monosnap.com/file/7aVg6lS9nLaHp3n6t6lBdQeQoFrrDe.png">
 <i><b>Note:</b> This is not the email you used to sign up for your Distelli account, this is the unique username selected after signup.</i>
 
-5. Now we're ready to deploy our sample application. Enter the following command into your terminal:
+7. Now we're ready to deploy our sample application. Enter the following command into your terminal:
 <pre>$ distelli deploy -m "First deployment with Distelli" -e MeteorEnvironment</pre>
+<img src="https://monosnap.com/file/tQLsBhx2mbOorMn2cUa6p5DPpEoVNR.png">
+Enter the email and password associated with your Distelli account:
+<img src="https://monosnap.com/file/j5vJJRVf1I6taDIRBdmtWcCereBpK9.png">
+Enter "Yes" when prompted if you are ready to start the deployment:
+<img src="https://monosnap.com/file/bz4ABxHmClhv9hpkMcTftJ72aw4rfU.png">
+You should see the following message on successful deployment:
+<img src="https://monosnap.com/file/lFkdyKHNHshRKAJElRc98qPcmRAwI0.png">
+
 
 Questions? Shoot us an email at <a href="mailto:support@disteli.com" target="_blank">support@distelli.com</a>.
