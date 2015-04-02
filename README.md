@@ -15,9 +15,9 @@ Distelli makes it fast and easy for developers to deploy code to any server with
 <pre>git clone https://github.com/Distelli/SimpleMeteorApp.git</pre>
 <pre>cd SimpleMeteorApp</pre>
 
-2. Open the Distelli manifest file, replace <username> with your Distelli username:
-<img src="https://monosnap.com/file/uqMrRgdQKGVNxczbTnmURvrjrO3Az0.png">
-
+2. Open the Distelli manifest file with your favorite text editor, replace <username> with your Distelli username:
+<img src="https://monosnap.com/file/7aVg6lS9nLaHp3n6t6lBdQeQoFrrDe.png">
+<i>Note: This is not the email you used to sign up for your Distelli account, this is the unique username selected after signup.</i>
 
 
 
