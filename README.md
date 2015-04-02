@@ -1,5 +1,6 @@
 # SimpleMeteorApp
 https://www.distelli.com
+This tutorial will walk you through deploying a simple HelloWorld Meteor Application to any server with Distelli.
 
 ##Prerequisites:##
 * <a href="https://www.meteor.com/install" target="_blank">Install Meteor on your local machine</a>.
