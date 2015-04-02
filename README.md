@@ -50,7 +50,10 @@ Enter the email and password associated with your Distelli account:
 <img src="https://monosnap.com/file/HFWdpMygpB8QPBxwqG5F0QL2kkNFXd.png">
 You should see the following message on successful push:
 <img src="https://monosnap.com/file/95WVNL6KoJNxIWlr5tFAFnae2sx2jT.png">
-8. Now we're ready to deploy our first release. Navigate back to https://www.distelli.com/<b>username</b>/envs/MeteorEnvironment replacing username with your username.
+8. Now we're ready to deploy our first release. Navigate back to https://www.distelli.com
+
+Select your application and then click your latest release:
+<img src="https://monosnap.com/file/zfdc2O4mwYfFeTpuJSdg4NcKBRz2wu.png">
 
 Select the lightning bolt on the top left of the page to deploy your latest release:
 <img src="https://monosnap.com/file/m0UNjcC2N4CjTBhkLlc8oMAJgNwJFl.png">
