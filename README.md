@@ -18,7 +18,7 @@ You should see the following message on successful clone:
 Then, use the cd command to enter the directory:
 <pre>cd SimpleMeteorApp</pre>
 
-2. To create an application with Distelli, enter the following command into your terminal replacing <username> with your Distelli username:
+2. To create an application with Distelli, enter the following command into your terminal replacing "username" with your Distelli username:
 <pre> $ distelli create <username>/SimpleMeteorApplication</pre>
 You should see the following message on successful app creation:
 <img src="https://monosnap.com/file/cAtiueLSEnuRP3aAEKcV1qJc5U5eCT.png">
