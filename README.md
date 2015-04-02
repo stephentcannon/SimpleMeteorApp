@@ -19,11 +19,11 @@ Then, use the cd command to enter the directory:
 <pre>cd SimpleMeteorApp</pre>
 
 2. To create an application with Distelli, enter the following command into your terminal replacing "username" with your Distelli username:
-<pre> $ distelli create <username>/SimpleMeteorApplication</pre>
+<pre> $ distelli create username/SimpleMeteorApplication</pre>
 You should see the following message on successful app creation:
 <img src="https://monosnap.com/file/cAtiueLSEnuRP3aAEKcV1qJc5U5eCT.png">
 
-3. To create an environment with Distelli, <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in you should see the Meteor application you just created. Select the SimpleMeteorApplication:
+3. To create an environment with Distelli, <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in, you should see the Meteor application you just created. Select the SimpleMeteorApplication:
 <img src="https://monosnap.com/file/62C7YNcTLbM0fKzERMwy38w8wbEHqM.png">
 Select the environments tab:
 <img src="https://monosnap.com/file/mndKKqpXetldIn46QHvInlWn9fJOmJ.png">
