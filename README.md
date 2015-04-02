@@ -15,14 +15,10 @@ This tutorial will walk you through deploying a simple HelloWorld Meteor Applica
 <pre>git clone https://github.com/Distelli/SimpleMeteorApp.git</pre>
 <pre>cd SimpleMeteorApp</pre>
 
-2. Open the distelli-manifest.yml file with your favorite text editor. Replace <username> with your Distelli username:
-<img src="https://monosnap.com/file/7aVg6lS9nLaHp3n6t6lBdQeQoFrrDe.png">
-<i><b>Note:</b> This is not the email you used to sign up for your Distelli account, this is the unique username selected after signup.</i>
-
-3. To create an application with Distelli, enter the following command into your terminal replacing <username> with your Distelli username:
+2. To create an application with Distelli, enter the following command into your terminal replacing <username> with your Distelli username:
 <pre> $ distelli create <username>/SimpleMeteorApplication
 
-4. To create an environment with Distelli, first <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in you should see the Meteor application you just created listed. Select the SimpleMeteorApplication:
+3. To create an environment with Distelli, first <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in you should see the Meteor application you just created listed. Select the SimpleMeteorApplication:
 <img src="https://monosnap.com/file/62C7YNcTLbM0fKzERMwy38w8wbEHqM.png">
 Then, select the environments tab:
 <img src="https://monosnap.com/file/mndKKqpXetldIn46QHvInlWn9fJOmJ.png">
@@ -37,9 +33,11 @@ Now select the "Add/Remove Servers" button on the top right of the page:
 You should see the server you installed the agent on prior to starting this tutorial. Add that server to the environment by selecting the add button:
 <img src="https://monosnap.com/file/8p6wYuziTvsievb5eWxKzLDwnD6Npb.png">
 
-5. You should see the server you added prior to starting this tutorial listed on the servers page.
+4. Open the distelli-manifest.yml file with your favorite text editor. Replace <username> with your Distelli username:
+<img src="https://monosnap.com/file/7aVg6lS9nLaHp3n6t6lBdQeQoFrrDe.png">
+<i><b>Note:</b> This is not the email you used to sign up for your Distelli account, this is the unique username selected after signup.</i>
 
-
-
+5. Now we're ready to deploy our sample application. Enter the following command into your terminal:
+<pre>$ distelli deploy -m "First deployment with Distelli" -e MeteorEnvironment</pre>
 
 Questions? Shoot us an email at <a href="mailto:support@disteli.com" target="_blank">support@distelli.com</a>.
