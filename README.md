@@ -11,4 +11,4 @@ This tutorial will walk you through deploying a simple HelloWorld Meteor Applica
 
 
 
-Run using Meteor command
+Questions? Shoot us an email at <a href="mailto:support@disteli.com" target="_blank">support@distelli.com</a>.
