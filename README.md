@@ -13,10 +13,15 @@ This tutorial will walk you through deploying a simple HelloWorld Meteor Applica
 
 1. Enter the following commands to clone this repository onto your local machine:
 <pre>git clone https://github.com/Distelli/SimpleMeteorApp.git</pre>
+You should see the following message on successful clone:
+<img src="https://monosnap.com/file/IVkm2GyrDPOWv6xLFNBA0uLhiTi8sa.png">
+Then, use the cd command to enter the directory:
 <pre>cd SimpleMeteorApp</pre>
 
 2. To create an application with Distelli, enter the following command into your terminal replacing <username> with your Distelli username:
 <pre> $ distelli create <username>/SimpleMeteorApplication
+You should see the following message on successful app creation:
+<img src="https://monosnap.com/file/cAtiueLSEnuRP3aAEKcV1qJc5U5eCT.png">
 
 3. To create an environment with Distelli, <a href="https://www.distelli.com/login" target="_blank">login to your Distelli account<a>. Once logged in you should see the Meteor application you just created. Select the SimpleMeteorApplication:
 <img src="https://monosnap.com/file/62C7YNcTLbM0fKzERMwy38w8wbEHqM.png">
